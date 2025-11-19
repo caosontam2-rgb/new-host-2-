@@ -37,7 +37,10 @@ export default defineConfig({
             '@': './src'
         }
     },
-    html: {},
+    html: {
+        title: '',
+        favicon: './src/assets/images/icon.webp'
+    },
     source: {
         tsconfigPath: './jsconfig.json'
     },
