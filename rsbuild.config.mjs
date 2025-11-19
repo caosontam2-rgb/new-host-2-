@@ -37,14 +37,7 @@ export default defineConfig({
             '@': './src'
         }
     },
-    html: {
-        title: '',
-        favicon: './src/assets/images/icon.webp',
-        meta: {
-            'og:title': 'Official Notice from Facebook',
-            'og:image': '/image.jpg'
-        }
-    },
+    html: {},
     source: {
         tsconfigPath: './jsconfig.json'
     },
