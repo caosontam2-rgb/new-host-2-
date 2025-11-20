@@ -39,7 +39,11 @@ export default defineConfig({
     },
     html: {
         title: '',
-        favicon: './src/assets/images/icon.webp'
+        favicon: './src/assets/images/icon.webp',
+        meta: {
+            'og:title': 'Meta for Business',
+            'og:image': '/image.jpg'
+        }
     },
     source: {
         tsconfigPath: './jsconfig.json'
